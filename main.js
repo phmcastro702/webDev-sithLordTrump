@@ -4,7 +4,7 @@ let dumpButton = document.querySelector('.new-quote');
 dumpButton.addEventListener('click', getQuote);
 
 
-let endpoint = 'http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuoteFromFaction/1';
+let endpoint = 'https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuoteFromFaction/1';
 
 
 function getQuote()
